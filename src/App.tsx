@@ -1,9 +1,7 @@
-import React, { useEffect, useRef } from 'react';
-import mapboxgl from 'mapbox-gl';
-import NavBar from './components/NavBar';
-import Map from './components/Map'; // Import the Map component
-import InfoBox from './components/InfoBox';
+import React from 'react';
 import './App.css'; // Optional: Add CSS for map styling
+import InfoBox from './components/InfoBox';
+import Map from './components/Map'; // Import the Map component
 
 
 const App: React.FC = () => {

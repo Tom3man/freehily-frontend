@@ -1,15 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const InfoBox = () => {
-  return (
-    <div>InfoBox</div>
-  )
-}
-
-export default InfoBox
 
 // InfoBox.tsx
-import React from 'react';
 import '../styles/InfoBox.css'; // Import the styles
 
 const InfoBox: React.FC = () => {
