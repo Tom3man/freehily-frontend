@@ -1,6 +1,46 @@
-.map {
-    width: 70%;
-    /* Occupy 70% of the width */
-    height: 100%;
-    /* Full height */
-  }
+/* Map.css */
+
+/* Wrapper for the entire map and controls */
+.map-wrapper {
+  display: flex;
+  justify-content: center; /* Center the map horizontally */
+  align-items: center; /* Center the map vertically */
+  height: 100vh; /* Full viewport height */
+  padding: 1rem; /* Add some spacing around */
+  background-color: #f5f5f5; /* Optional: Light background color */
+}
+
+/* Container for the map */
+.map-container {
+  width: 70%; /* Map takes 70% of the width */
+  height: 80%; /* Map takes 80% of the height */
+  border: 1px solid #ccc; /* Optional: Border for the map */
+  border-radius: 8px; /* Optional: Rounded corners */
+  overflow: hidden; /* Ensures the map stays within its container */
+  position: relative; /* For placing child elements like legends */
+}
+
+/* Controls container */
+.controls {
+  width: 25%; /* Input box takes 25% of the width */
+  margin-left: 1rem; /* Spacing between map and controls */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Add spacing between input elements */
+  background-color: #fff; /* White background for input box */
+  padding: 1rem; /* Padding inside the input box container */
+  border: 1px solid #ccc; /* Optional: Border for the controls */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+}
+
+/* Legend styling */
+.map-legend {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

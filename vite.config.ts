@@ -7,5 +7,6 @@ export default defineConfig({
   server: {
     host: true, // Allows access from external machines
     port: 5174, // Specify the port
+    strictPort: true, // Ensures Vite does not switch ports if 5174 is in use
   },
 });
