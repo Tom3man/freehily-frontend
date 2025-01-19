@@ -40,7 +40,7 @@ const Map: React.FC = () => {
         setError(null); // Reset errors
 
         try {
-            const apiUrl = `https://geo-api-608970134245.europe-west2.run.app/crimes/?longitude=${longitude}&latitude=${latitude}&radius=${radius}`;
+            const apiUrl = `https://police-608970134245.europe-west2.run.app/crimes/?longitude=${longitude}&latitude=${latitude}&radius=${radius}`;
             console.log("Fetching crime data from:", apiUrl);
 
             const response = await fetch(apiUrl);
