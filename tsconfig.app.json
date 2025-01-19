@@ -8,7 +8,7 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "Node",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
@@ -20,7 +20,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    /* Absolute imports */
+    "baseUrl": "./", // Base directory for resolving modules
+    "paths": {
+      "@/*": ["freehily/*"] // Alias for cleaner imports
+    }
   },
-  "include": ["freehily"]
+  "include": ["freehily/**/*"]
 }
