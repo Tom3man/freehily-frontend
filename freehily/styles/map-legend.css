@@ -1,0 +1,30 @@
+/* freehily/styles/map-legend.css */
+.MapLegend {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.MapLegend ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.MapLegend li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.MapLegend li span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+}

@@ -1,0 +1,24 @@
+/* Header styles */
+
+.header {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 1rem; /* Spacing around the text */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: sticky; /* Makes the header stick to the top while scrolling */
+    top: 0; /* Sticks to the very top of the viewport */
+    z-index: 10; /* Ensures the header is on top of other elements */
+}
+
+.header h1 {
+    margin: 0; /* Removes default margin */
+    font-size: 1.8rem; /* Larger font size for the heading */
+    font-weight: bold; /* Bold text */
+}
+
+.header p {
+    margin: 0;
+    font-size: 1rem; /* Smaller font size for any subtext */
+    font-weight: 300; /* Lighter weight for subtext */
+}

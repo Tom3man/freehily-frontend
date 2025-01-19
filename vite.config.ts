@@ -4,8 +4,20 @@ import react from '@vitejs/plugin-react';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  resolve: {
+    alias: {
+      "@": "/freehily",
+    },
+  },
   server: {
-    host: '0.0.0.0', // Allow external access
-    port: 5174, // Specify the port
+    host: true,
+    port: 5174,
+    strictPort: true,
+  },
+  esbuild: {
+    jsx: "automatic",
+  },
+  build: {
+    target: "es2020",
   },
 });

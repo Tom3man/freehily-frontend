@@ -29,6 +29,6 @@
     "vite": "^6.0.5"
   },
   "proxy": {
-  "/crimes": "https://geo-api-608970134245.europe-west2.run.app"
-}
+    "/crimes": "https://geo-api-608970134245.europe-west2.run.app"
+  }
 }
