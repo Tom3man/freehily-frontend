@@ -1,4 +1,4 @@
-/* Map.css */
+/* map.css */
 
 /* Wrapper for the entire map and controls */
 .map-wrapper {
@@ -35,7 +35,7 @@
 }
 
 /* Legend styling */
-.map-legend {
+.MapLegend {
   position: absolute;
   bottom: 10px;
   left: 10px;

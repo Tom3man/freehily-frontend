@@ -1,9 +1,9 @@
 import React from "react";
-import "../../styles/MapLegend.css"; // Add your own styling for the legend
+import "../../styles/map-legend.css"; // Add your own styling for the legend
 
 const MapLegend: React.FC = () => {
     return (
-        <div className="map-legend">
+        <div className="MapLegend">
             <h4>Map Legend</h4>
             <ul>
                 <li>

@@ -1,7 +1,7 @@
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import React, { useEffect, useRef } from "react";
-import "../../styles/Map.css";
+import "../../styles/map.css";
 import MapControls from "./MapControls";
 import MapLegend from "./MapLegend";
 
